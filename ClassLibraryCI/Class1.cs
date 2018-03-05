@@ -8,6 +8,14 @@ namespace ClassLibraryCI
 {
     public class Class1
     {
-        public s
+        public string GetName()
+        {
+            return "Linda";
+        }
+
+        public string GetAddress()
+        {
+            return "Gartnervang 2B";
+        }
     }
 }
