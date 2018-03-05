@@ -30,7 +30,7 @@ namespace ClassLibraryCI.Tests
             //Act
             string elisagaardsvej = myAddress.GetAddress();
             //Assert
-            Assert.AreEqual("Gartnervang", elisagaardsvej );
+            Assert.AreEqual("Gartnervang 2B", elisagaardsvej );
         }
     }
 }
